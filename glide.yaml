@@ -1,0 +1,28 @@
+package: github.com/noodlensk/release-instructions
+import:
+- package: github.com/andygrunwald/go-jira
+  version: ^1.5.0
+- package: github.com/fatih/structs
+  version: ^1.0.0
+- package: github.com/noodlensk/go-bitbucket
+  version: ^0.3.1
+- package: github.com/spf13/cobra
+  version: ^0.0.3
+- package: github.com/spf13/viper
+  version: ^1.0.2
+- package: github.com/sirupsen/logrus
+  version: ^1.0.5
+- package: github.com/fsnotify/fsnotify
+  version: ^1.4.7
+- package: github.com/spf13/pflag
+  version: ^1.0.1
+- package: github.com/google/go-querystring
+  subpackages:
+  - query
+- package: github.com/pkg/errors
+  version: ^0.8.0
+- package: golang.org/x/sync
+  subpackages:
+  - errgroup
+- package: github.com/gorilla/mux
+  version: ^1.6.2
